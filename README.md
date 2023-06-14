@@ -1,18 +1,37 @@
-# Criando um Banco Digital com Java e Orientação a Objetos
+# Sistema Bancário
 
-## 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
+Este é um projeto de sistema bancário desenvolvido em Java.
 
-Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário:
-“Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
+## Pré-requisitos
 
-### Abstração
-Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
+- Java JDK 16 ou superior
+- Apache Maven (opcional, se estiver usando o gerenciador de dependências)
 
-### Encapsulamento
-Encapsular significa esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender. O encapsulamento favorece principalmente dois aspectos de um sistema: a manutenção e a evolução.
+## Configuração
 
-### Herança
-Permite que você defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros são herdados é chamada de classe base. A classe que herda os membros da classe base é chamada de classe derivada.
+1. Clone o repositório em sua máquina local: git@github.com:JJonathass/BancoSimples.git
 
-### Polimorfismo
-Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+2. Navegue até o diretório do projeto: cd sistema-bancario
+
+3. Compile o projeto: mvn compile
+
+## Uso
+
+1. Execute o programa: mvn exec:java -Dexec.mainClass="com.example.Main"
+
+2. Siga as instruções exibidas no console para interagir com o sistema bancário.
+
+## Funcionalidades
+
+- O sistema bancário oferece suporte a operações de depósito, saque e transferência entre contas.
+- Suporta diferentes tipos de contas, como Conta Corrente e Conta Poupança.
+- Cada conta é associada a um cliente.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver alguma sugestão, correção de bug ou melhoria para o projeto, fique à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo LICENSE para obter mais informações.
+
